@@ -1,0 +1,24 @@
+.options-line {
+    top: 0;
+    right: 0;
+    display: inline;
+    position: absolute;
+    justify-content: right;
+    padding: 0px;
+    column-gap: normal;
+}
+
+.img {
+    justify-content: left;
+}
+
+.msu {
+    display: block;
+    background-color: aquamarine;
+    length: 400px;
+    width: 1000px;
+    height: 400px;
+    justify-content: left;
+    border: 5px black;
+    
+}
