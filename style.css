@@ -1,24 +1,90 @@
+h1 {
+    display: block;
+    width: 100%;
+    background-image: url(pictures/mountains-background.avif);
+    height: 150px;
+    width: 900px;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+.welcome {
+    font-size: large;
+}
+
+body {
+    display: inline-block;
+    flex-direction: column;
+    columns: 1;
+    background-color:blanchedalmond;
+    min-height: 200vh;
+    width: 1200px;
+    
+
+}
+
 .options-line {
-    top: 0;
-    right: 0;
+    top: 35px;
+    right: 455px;
     display: inline;
     position: absolute;
     justify-content: right;
     padding: 0px;
     column-gap: normal;
+    
 }
 
 .img {
-    justify-content: left;
+    display: flex;
+    justify-content: center;
+
+  
 }
 
 .msu {
     display: block;
-    background-color: aquamarine;
-    length: 400px;
-    width: 1000px;
+    background-color:#ecb975;
+    width: 800px;
     height: 400px;
     justify-content: left;
-    border: 5px black;
+    border-style: initial;
+    border-color: black;
+    margin-top: 600px;  
+    box-shadow: 7px 7px rgb(224, 149, 10);
     
+  
+    
+
+}
+
+
+.fun {
+    display: block;
+    justify-self: right;
+    justify-content: space-between;
+    margin-right: 0px;
+    background-color: #ecb975;
+    length: 400px;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px black;
+    row-gap: 200px;
+    box-shadow: 7px 7px rgb(224, 149, 10);
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    column-count: 1;
+    column-gap: 2em;
+    row-gap: 2em;
+    -webkit-text-size-adjust: auto;
+    min-height: 100%;
+    max-width: 800px;
+    margin: auto;
+    
+  
+
 }
