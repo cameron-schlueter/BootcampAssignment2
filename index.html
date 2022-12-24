@@ -19,7 +19,7 @@
         <button>Linked-In</button><button>Instagram</button>
     </div>
     <div class="me">
-        <img src="pictures/Profile Picture2.jpg" alt="pictures/Profile Picture2">
+        <img src="pictures/Profile Picture2.jpg" alt="Profile picture of Cameron Schlueter">
     </div>
     <section>
         <h2>Hi! My name is Cameron.</h2>
@@ -30,21 +30,25 @@
                 took for fun.</p>
         </div>
         <div class="scroll-buttons">
-            
-            <button>MSU Bootcamp Work</button>
-        
-            <button>Fun Projects</button>
+            <button id= "MSU-Bootcamp-Work"><p>MSU Bootcamp Work</p></button>
+         <script>
+            var button = document.addEventListener("click", function() {
+                window.scrollTo(0,1100)
+            });
+         </script>   
+                
+            <button id= "Fun-Projects"><p>Fun Projects</p></button>
             
         </div>
     </section>
     <section>
-        <div class="msu">
-            <h3>MSU Bootcamp</h3>
+        <div id="msu">
+            <h3>MSU Bootcamp - Github</h3>
         </div>
     </section>
 
     <section>
-        <div class="fun">
+        <div id="fun">
             <h4>For Fun!</h4>
         </div>
     </section>
