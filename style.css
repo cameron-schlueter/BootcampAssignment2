@@ -3,7 +3,7 @@ h1 {
     width: 100%;
     background-image: url(pictures/mountains-background.avif);
     height: 150px;
-    width: 900px;
+    width: 1100px;
 }
 
 h2 {
@@ -36,31 +36,30 @@ body {
     
 }
 
-.img {
+.me {
     display: flex;
     justify-content: center;
+    padding-right: 180px;
+    height: 400px;
+    box-shadow: 10px black;
 
   
 }
 
-.msu {
+#msu {
     display: block;
     background-color:#ecb975;
     width: 800px;
     height: 400px;
     justify-content: left;
-    border-style: initial;
-    border-color: black;
     margin-top: 600px;  
     box-shadow: 7px 7px rgb(224, 149, 10);
-    
-  
-    
+    margin-left: 10px; 
 
 }
 
 
-.fun {
+#fun {
     display: block;
     justify-self: right;
     justify-content: space-between;
@@ -72,8 +71,11 @@ body {
     border-radius: 10px black;
     row-gap: 200px;
     box-shadow: 7px 7px rgb(224, 149, 10);
+    margin-left: 10px;
     
 }
+
+#MSU-Bootcamp-Work
 
 html {
     scroll-behavior: smooth;
