@@ -56,10 +56,13 @@ body {
     margin-top: 600px;  
     box-shadow: 7px 7px rgb(224, 149, 10);
     margin-left: 10px; 
-    background-image: url(https://www.zbw-mediatalk.eu/wp-content/uploads/2015/09/github-cover.jpg);
-    background-image: inherit;
+    color: white;
+    background-image: url("https://www.zbw-mediatalk.eu/wp-content/uploads/2015/09/github-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    
 }
-
 
 #fun {
     display: block;
