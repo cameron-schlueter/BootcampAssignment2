@@ -20,19 +20,20 @@ body {
     columns: 1;
     background-color:blanchedalmond;
     min-height: 200vh;
-    width: 1200px;
+    max-width: 1000px;
     
 
 }
 
 .options-line {
     top: 35px;
-    right: 455px;
+    right: 250px;
     display: inline;
     position: absolute;
-    justify-content: right;
+    justify-content: left;
     padding: 0px;
     column-gap: normal;
+    margin-right: 0;
     
 }
 
@@ -55,7 +56,8 @@ body {
     margin-top: 600px;  
     box-shadow: 7px 7px rgb(224, 149, 10);
     margin-left: 10px; 
-
+    background-image: url(https://www.zbw-mediatalk.eu/wp-content/uploads/2015/09/github-cover.jpg);
+    background-image: inherit;
 }
 
 
@@ -65,7 +67,6 @@ body {
     justify-content: space-between;
     margin-right: 0px;
     background-color: #ecb975;
-    length: 400px;
     width: 800px;
     height: 400px;
     border-radius: 10px black;
@@ -85,8 +86,8 @@ html {
     -webkit-text-size-adjust: auto;
     min-height: 100%;
     max-width: 800px;
-    margin: auto;
+    margin: 0;
+    padding-right: 0;
     
-  
-
+    
 }
